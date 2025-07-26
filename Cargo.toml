@@ -1,6 +1,8 @@
 [package]
 name = "eat"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2024"
 license = "Apache-2.0"
+categories = ["no-std", "rust-patterns", "no-std::no-alloc"]
+keywords = ["ifyer", "eat"]
 [dependencies]
