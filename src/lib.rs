@@ -13,4 +13,6 @@
  * See the License for the specific language governing permissions and      *
  * limitations under the License.                                           *
  ****************************************************************************/
-pub mod eat;
+#![forbid(unsafe_code)]
+#![no_std]
+ pub mod eat;

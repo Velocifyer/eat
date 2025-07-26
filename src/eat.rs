@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and       *
  * limitations under the License.                                            *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#![forbid(unsafe_code)]
 /// eats a variable
 pub fn eat<T>(_variable: T) {}
-/// eats 2 variables
-pub fn eat_eat<T>(_variable: T, _variable2: T) {}
