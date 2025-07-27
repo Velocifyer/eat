@@ -14,5 +14,5 @@
  * limitations under the License.                                            *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 #![forbid(unsafe_code)]
-/// eats a variable
+/// Eats `_variable`
 pub fn eat<T>(_variable: T) {}
